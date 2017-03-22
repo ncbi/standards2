@@ -1,0 +1,27 @@
+{
+  "name": "ncbi-wds",
+  "version": "0.0.1",
+  "description": "NCBI Web Design Standards",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NCBI/standards2.git"
+  },
+  "keywords": [
+    "NCBI"
+  ],
+  "author": "NCBI",
+  "contributors": [
+        "Alissa Irving <irvingad@ncbi.nlm.nih.gov>",
+        "Aynex Mercado <mercado1@ncbi.nlm.nih.gov>",
+        "Greg Schuler <schuler@ncbi.nlm.nih.gov>",
+        "Eddie Welker <welkere@ncbi.nlm.nih.gov>"
+    ],
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/NCBI/standards2/issues"
+  },
+  "homepage": "https://github.com/NCBI/standards2#readme",
+  "dependencies": {
+    "uswds": "^1.0.0"
+  }
+}
