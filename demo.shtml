@@ -13,10 +13,11 @@
 </head>
 
 <body>
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
 <!--#include file="./assets/html/_header.html" -->
 
 	
-	<main id="maincontent" class="usa-grid">
+	<main id="main-content" class="usa-grid">
 	<section class="usa-section">
 	<h1>Standards Demo Page</h1>
 	<p>With standard NCBI header and footer</p>
@@ -29,5 +30,6 @@
 
 
 <script src="./assets/js/header.js"></script>
+<script src="https://www.ncbi.nlm.nih.gov/coreutils/uswds/js/uswds.min.js"></script>
 </body>
 </html>
