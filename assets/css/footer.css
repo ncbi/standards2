@@ -1,0 +1,120 @@
+.ncbi-footer {
+  margin-top:2em;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  background-color: #205493;
+  color:#fff;
+  padding: 0 0 2em;
+}
+.ncbi-footer h3, .ncbi-footer h4 {
+   font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+.ncbi-footer ul.usa-footer-primary-content {
+  padding-top:1em;
+}
+.ncbi-footer .usa-footer-primary-link h4 {
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color:#fff;
+  font-size:1.2em;
+}
+.ncbi-footer.usa-footer a, .ncbi-footer.usa-footer h3.ncbi a {
+  text-decoration: none;
+  color: #fff;
+}
+.ncbi-footer.usa-footer a:hover, .ncbi-footer .ncbi a:hover {
+  text-decoration: none;
+  color:#9bdaf1;
+}
+.ncbi-footer.usa-footer-big ul.hidden .usa-footer-primary-link,
+.ncbi-footer.usa-footer-big ul .usa-footer-primary-link {
+  background-image:none;
+}
+.ncbi-footer h3.ncbi {
+  margin-top: 7.2rem;	
+}
+.ncbi-footer h3.ncbi a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size:1em;
+  color:#fff;
+
+}
+.ncbi-footer .about-links {
+	padding-top: 1.7rem;
+}
+.ncbi-footer .about-links a {
+  text-decoration: underline;
+  margin-right:15px;
+}
+
+.ncbi-footer i.fa, .ncbi-footer i.fa.fa-question-circle {
+  color: #fff;
+  float: none;
+  width: 25px;
+}
+
+
+.ncbi-footer .usa-footer-logo a {
+  display: inline-block;
+  height: 40px;
+  margin: 0.4rem 1.5rem 0 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ncbi-footer .nlm-logo {
+  width: 48px;
+  background: #005295 url('../img/logos/nlm-logo-letters-white.svg') no-repeat center;
+}
+.ncbi-footer .nih-logo {
+  width: 38px;
+  background: #005295 url('../img/logos/nih-logo-white.svg') no-repeat center;
+}
+.ncbi-footer .hhs-logo {
+ width: 36px;	
+  background: #005295 url('../img/logos/dhhs-logo-white.svg') no-repeat center;
+}
+.ncbi-footer .usagov-logo {
+  width: 76px;
+  background: #005295 url('../img/logos/usagov-logo-white.svg') no-repeat center;
+}
+
+.ncbi-footer .usa-footer-primary-link.ncbi-footer-heading:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .ncbi-footer .usa-grid .usa-width-one-fourth {
+  margin-right: 3%;
+    width: 22%;
+  }
+}
+@media screen and (max-width: 930px){
+  .ncbi-footer .usa-grid .usa-width-one-half {
+  width:100%;
+  }
+  .ncbi-footer .usa-footer-logo {
+  margin: 0;
+  }
+ .ncbi-footer .org-section {
+  margin-top:20px;
+  }
+}
+@media screen and (max-width: 600px){
+  .ncbi-footer ul.usa-footer-primary-content li:not(:first-of-type) {
+    margin-left:3em;
+  }
+  .ncbi-footer ul.usa-footer-primary-content {
+    padding-top: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .ncbi-footer .usa-grid .usa-width-one-fourth {
+  margin-right: inherit;
+  width:inherit;
+  }
+  .usa-footer-big ul:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
