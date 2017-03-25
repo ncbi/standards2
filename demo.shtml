@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<!-- #include file="assets/html/_header.html" -->
+<!--#include file="./assets/html/_header.html" -->
 
 	
 	<main id="maincontent" class="usa-grid">
@@ -24,10 +24,10 @@
 	</main>
 	
 
-<!-- #include file="assets/html/_footer.html" -->
+<!--#include file="./assets/html/_footer.html" -->
 
 
 
-<script src="standards2/assets/js/header.js"></script>
+<script src="./assets/js/header.js"></script>
 </body>
 </html>
