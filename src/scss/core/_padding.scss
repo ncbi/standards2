@@ -9,4 +9,7 @@
 
 .ncbi-narrow-padding {
 	@include padding($site-margins-mobile 0);
+	@include media($medium-screen) {
+		@include padding(2rem 0);
+	}
 }

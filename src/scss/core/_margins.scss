@@ -9,4 +9,7 @@
 
 .ncbi-narrow-margins {
 	@include margin($site-margins-mobile 0);
+	@include media($medium-screen) {
+		@include margin(2rem 0);
+	}
 }

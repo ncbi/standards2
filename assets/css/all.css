@@ -14,6 +14,9 @@ html {
 
 .ncbi-narrow-margins {
   margin: 1.5rem 0; }
+  @media screen and (min-width: 600px) {
+    .ncbi-narrow-margins {
+      margin: 2rem 0; } }
 
 /* ========== Padding ========== */
 .ncbi-std-padding {
@@ -24,6 +27,9 @@ html {
 
 .ncbi-narrow-padding {
   padding: 1.5rem 0; }
+  @media screen and (min-width: 600px) {
+    .ncbi-narrow-padding {
+      padding: 2rem 0; } }
 
 /* ========== Colors ========== */
 .ncbi-bg-primary {
