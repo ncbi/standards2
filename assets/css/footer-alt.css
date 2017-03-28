@@ -1,0 +1,72 @@
+/* footer-alt.css */
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* _footer.scss */
+.ncbi-footer {
+  border-top: 1px solid #aeb0b5; }
+  .ncbi-footer p {
+    margin-bottom: 0.5em; }
+  .ncbi-footer h3 {
+    color: #ffffff;
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    text-transform: uppercase;
+    font-weight: normal; }
+  .ncbi-footer .social-icon, .ncbi-footer .social-icon-label {
+    display: block;
+    width: 100%;
+    height: 32px;
+    margin-right: 0;
+    line-height: 32px;
+    text-indent: 48px;
+    white-space: nowrap;
+    overflow: hidden; }
+    @media screen and (min-width: 600px) {
+      .ncbi-footer .social-icon, .ncbi-footer .social-icon-label {
+        display: inline-block;
+        width: 32px; } }
+  @media screen and (min-width: 600px) {
+    .ncbi-footer .social-icon-label {
+      width: auto; } }
+  .ncbi-footer #footer-test-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -128px no-repeat; }
+  .ncbi-footer #footer-test-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -160px no-repeat; }
+  .ncbi-footer #footer-support-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 0 no-repeat; }
+  .ncbi-footer #footer-support-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -32px no-repeat; }
+  .ncbi-footer #footer-twitter-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -128px no-repeat; }
+  .ncbi-footer #footer-twitter-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -160px no-repeat; }
+  .ncbi-footer #footer-facebook-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -192px no-repeat; }
+  .ncbi-footer #footer-facebook-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -224px no-repeat; }
+  .ncbi-footer #footer-linkedin-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -256px no-repeat; }
+  .ncbi-footer #footer-linkedin-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -288px no-repeat; }
+  .ncbi-footer #footer-youtube-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -320px no-repeat; }
+  .ncbi-footer #footer-youtube-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -352px no-repeat; }
+  .ncbi-footer #footer-github-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -384px no-repeat; }
+  .ncbi-footer #footer-github-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -416px no-repeat; }
+  .ncbi-footer #footer-rss-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -448px no-repeat; }
+  .ncbi-footer #footer-rss-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -480px no-repeat; }
+  .ncbi-footer #footer-blog-icon {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -512px no-repeat; }
+  .ncbi-footer #footer-blog-icon:hover {
+    background: url("../img/social-icons/circle/footer-sprite.png") 0 -544px no-repeat; }
+
+.ncbi-footer-link-block-dead {
+  padding: 3em 3em 3em 0; }

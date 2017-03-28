@@ -1,0 +1,71 @@
+/*
+Error: File to import not found or unreadable: ../../node_modules/uswds/src/stylesheets/components/hero.
+       Load paths:
+         C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/bourbon
+         C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/neat
+         C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/base
+        on line 3 of C:/Users/schuler/Documents/www/coreutils/standards/standards2/src/scss/layouts/_landing.scss
+        from line 15 of C:\Users\schuler\Documents\www\coreutils\standards\standards2\src\scss\all.scss
+
+1: /* all.css *\/
+2: 
+3: @import 'core/variables';
+4: 
+5: @import "../../node_modules/uswds/src/stylesheets/lib/bourbon";
+6: @import "../../node_modules/uswds/src/stylesheets/lib/neat";
+7: @import '../../node_modules/uswds/src/stylesheets/core/variables';
+8: 
+
+Backtrace:
+C:/Users/schuler/Documents/www/coreutils/standards/standards2/src/scss/layouts/_landing.scss:3
+C:\Users\schuler\Documents\www\coreutils\standards\standards2\src\scss\all.scss:15
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:45:in `import'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `map'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `block in with_import'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `with_import'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:20:in `render'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:420:in `run'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `load'
+C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../../node_modules/uswds/src/stylesheets/components/hero.\A        Load paths:\A          C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/bourbon\A          C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/neat\A          C:/Apps/Licensed_Installs/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/base\A         on line 3 of C:/Users/schuler/Documents/www/coreutils/standards/standards2/src/scss/layouts/_landing.scss\A         from line 15 of C:\Users\schuler\Documents\www\coreutils\standards\standards2\src\scss\all.scss\A \A 1: /* all.css */\A 2: \A 3: @import 'core/variables';\A 4: \A 5: @import \"../../node_modules/uswds/src/stylesheets/lib/bourbon\";\A 6: @import \"../../node_modules/uswds/src/stylesheets/lib/neat\";\A 7: @import '../../node_modules/uswds/src/stylesheets/core/variables';\A 8: "; }

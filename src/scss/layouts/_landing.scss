@@ -1,0 +1,20 @@
+/* ========== Hero image ========== */
+
+@import '../../node_modules/uswds/src/stylesheets/components/hero';
+
+
+.ncbi-hero {
+	@extend .usa-hero;
+	background-image: url('../img/photos/nlm-building.png');
+}
+
+
+.ncbi-hero-callout {
+	@extend .usa-hero-callout;
+	opacity: 0.95;
+	h1 {color: white; }
+	a.usa-button {
+    	margin-top: 3rem;
+  }
+}
+

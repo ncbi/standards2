@@ -1,0 +1,104 @@
+/* ========== Colors ========== */
+
+.ncbi-bg-primary { background-color: $color-primary; }
+.ncbi-bg-primary-darker { background-color: $color-primary-darker; }
+.ncbi-bg-primary-darkest { background-color: $color-primary-darkest; }
+.ncbi-bg-primary-alt { background-color: $color-primary-alt; }
+.ncbi-bg-primary-alt-dark { background-color: $color-primary-alt-dark; }
+.ncbi-bg-primary-alt-darkest { background-color: $color-primary-alt-darkest; }
+.ncbi-bg-primary-alt-light { background-color: $color-primary-alt-light; }
+.ncbi-bg-primary-alt-lightest { background-color: $color-primary-alt-lightest; }
+.ncbi-bg-secondary { background-color: $color-secondary; }
+.ncbi-bg-secondary-dark { background-color: $color-secondary-dark; }
+.ncbi-bg-secondary-darkest { background-color: $color-secondary-darkest; }
+.ncbi-bg-secondary-light { background-color: $color-secondary-light; }
+.ncbi-bg-secondary-lightest { background-color: $color-secondary-lightest; }
+.ncbi-bg-white { background-color: $color-white; }
+.ncbi-bg-base { background-color: $color-base; }
+.ncbi-bg-black { background-color: $color-black; }
+.ncbi-bg-gray-dark { background-color: $color-gray-dark; }
+.ncbi-bg-gray { background-color: $color-gray; }
+.ncbi-bg-gray-medium { background-color: $color-gray-medium; }
+.ncbi-bg-gray-light { background-color: $color-gray-light; }
+.ncbi-bg-gray-lighter { background-color: $color-gray-lighter; }
+.ncbi-bg-gray-lightest { background-color: $color-gray-lightest; }
+.ncbi-bg-gray-warm-dark { background-color: $color-gray-warm-dark; }
+.ncbi-bg-gray-warm-light { background-color: $color-gray-warm-light; }
+.ncbi-bg-gray-cool-light { background-color: $color-gray-cool-light; }
+.ncbi-bg-gold { background-color: $color-gold; }
+.ncbi-bg-gold-light { background-color: $color-gold-light; }
+.ncbi-bg-gold-lighter { background-color: $color-gold-lighter; }
+.ncbi-bg-gold-lightest { background-color: $color-gold-lightest; }
+.ncbi-bg-green { background-color: $color-green; }
+.ncbi-bg-green-light { background-color: $color-green-light; }
+.ncbi-bg-green-lighter { background-color: $color-green-lighter; }
+.ncbi-bg-green-lightest { background-color: $color-green-lightest; }
+.ncbi-bg-cool-blue { background-color: $color-cool-blue; }
+.ncbi-bg-cool-blue-light { background-color: $color-cool-blue-light; }
+.ncbi-bg-cool-blue-lighter { background-color: $color-cool-blue-lighter; }
+.ncbi-bg-cool-blue-lightest { background-color: $color-cool-blue-lightest; }
+.ncbi-bg-focus { background-color: $color-focus; }
+.ncbi-bg-visited { background-color: $color-visited; }
+.ncbi-bg-nih-blue { background-color: $color-nih-blue; }
+
+// Light backgrounds with dark text
+.ncbi-bg-gray-light,
+.ncbi-bg-gray-lighter,
+.ncbi-bg-gray-lightest,
+.ncbi-bg-gray-warm-light,
+.ncbi-bg-gray-cool-light,
+.ncbi-bg-cool-blue-lighter,
+.ncbi-bg-cool-blue-lightest,
+.ncbi-bg-primary-alt-dark,
+.ncbi-bg-primary-alt,
+.ncbi-bg-primary-alt-light,
+.ncbi-bg-primary-alt-lightest,
+.ncbi-bg-green-light,
+.ncbi-bg-green-lighter,
+.ncbi-bg-green-lightest,
+.ncbi-bg-gold,
+.ncbi-bg-gold-light,
+.ncbi-bg-gold-lighter,
+.ncbi-bg-gold-lightest,
+.ncbi-bg-secondary-light,
+.ncbi-bg-secondary-lightest
+{
+	color: $color-base;
+	a {
+		color: $color-primary;
+	}
+	a:hover {
+		color: $color-black; 
+	}	
+}
+
+// Dark backgrounds with light text
+.ncbi-bg-base,
+.ncbi-bg-gray-warm-dark,
+.ncbi-bg-gray-dark,
+.ncbi-bg-gray,
+.ncbi-bg-primary-darkest,
+.ncbi-bg-primary-darker,
+.ncbi-bg-primary,
+.ncbi-bg-cool-blue,
+.ncbi-bg-cool-blue-light,
+.ncbi-bg-primary-alt-darkest,
+.ncbi-bg-green,
+.ncbi-bg-secondary-darkest,
+.ncbi-bg-secondary-dark,
+.ncbi-bg-secondary,
+.ncbi-bg-visited,
+.ncbi-bg-nih-blue,
+.ncbi-bg-ncbi-blue {
+	color: $color-white;
+	a {
+		color: $color-cool-blue-lightest; 
+		// these were also tried, but rejected
+		//color: $color-primary-alt-light; 
+		//color: $color-primary-alt-lightest; 
+		//color: $color-cool-blue-lighter; 
+	}
+	a:hover {
+		color: $color-white; 
+	}
+}
