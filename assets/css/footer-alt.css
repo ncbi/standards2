@@ -39,35 +39,35 @@ html {
   @media screen and (min-width: 600px) {
     .ncbi-footer .social-icon-label {
       width: auto; } }
-  .ncbi-footer #footer-support-icon {
+  .ncbi-footer #footer-support {
     background: url(../img/footer/footer-sprite.png) 0 0 no-repeat; }
-  .ncbi-footer #footer-support-icon:hover {
+  .ncbi-footer #footer-support:hover {
     background: url(../img/footer/footer-sprite.png) 0 -32px no-repeat; }
-  .ncbi-footer #footer-twitter-icon {
+  .ncbi-footer #footer-twitter {
     background: url(../img/footer/footer-sprite.png) 0 -128px no-repeat; }
-  .ncbi-footer #footer-twitter-icon:hover {
+  .ncbi-footer #footer-twitter:hover {
     background: url(../img/footer/footer-sprite.png) 0 -160px no-repeat; }
-  .ncbi-footer #footer-facebook-icon {
+  .ncbi-footer #footer-facebook {
     background: url(../img/footer/footer-sprite.png) 0 -192px no-repeat; }
-  .ncbi-footer #footer-facebook-icon:hover {
+  .ncbi-footer #footer-facebook:hover {
     background: url(../img/footer/footer-sprite.png) 0 -224px no-repeat; }
-  .ncbi-footer #footer-linkedin-icon {
+  .ncbi-footer #footer-linkedin {
     background: url(../img/footer/footer-sprite.png) 0 -256px no-repeat; }
-  .ncbi-footer #footer-linkedin-icon:hover {
+  .ncbi-footer #footer-linkedin:hover {
     background: url(../img/footer/footer-sprite.png) 0 -288px no-repeat; }
-  .ncbi-footer #footer-youtube-icon {
+  .ncbi-footer #footer-youtube {
     background: url(../img/footer/footer-sprite.png) 0 -320px no-repeat; }
-  .ncbi-footer #footer-youtube-icon:hover {
+  .ncbi-footer #footer-youtube:hover {
     background: url(../img/footer/footer-sprite.png) 0 -352px no-repeat; }
-  .ncbi-footer #footer-github-icon {
+  .ncbi-footer #footer-github {
     background: url(../img/footer/footer-sprite.png) 0 -384px no-repeat; }
-  .ncbi-footer #footer-github-icon:hover {
+  .ncbi-footer #footer-github:hover {
     background: url(../img/footer/footer-sprite.png) 0 -416px no-repeat; }
-  .ncbi-footer #footer-rss-icon {
+  .ncbi-footer #footer-rss {
     background: url(../img/footer/footer-sprite.png) 0 -448px no-repeat; }
-  .ncbi-footer #footer-rss-icon:hover {
+  .ncbi-footer #footer-rss:hover {
     background: url(../img/footer/footer-sprite.png) 0 -480px no-repeat; }
-  .ncbi-footer #footer-blog-icon {
+  .ncbi-footer #footer-blog {
     background: url(../img/footer/footer-sprite.png) 0 -512px no-repeat; }
-  .ncbi-footer #footer-blog-icon:hover {
+  .ncbi-footer #footer-blog:hover {
     background: url(../img/footer/footer-sprite.png) 0 -544px no-repeat; }
