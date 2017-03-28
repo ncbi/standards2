@@ -7,18 +7,22 @@ html {
 
 /* _footer-alt.scss */
 .ncbi-footer {
-  border-top: 1px solid #aeb0b5;
+  border-top: 1px solid #d6d7d9;
   margin-top: 1.5rem; }
   @media screen and (min-width: 600px) {
     .ncbi-footer {
       margin-top: 3rem; } }
-  .ncbi-footer p {
-    margin-bottom: 0.5em; }
   .ncbi-footer h3 {
     color: #ffffff;
     font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     text-transform: uppercase;
     font-weight: normal; }
+  .ncbi-footer p {
+    margin-bottom: 0.5em; }
+  .ncbi-footer a {
+    text-decoration: none; }
+  .ncbi-footer a:hover {
+    text-decoration: underline; }
   .ncbi-footer .social-icon, .ncbi-footer .social-icon-label {
     display: block;
     width: 100%;
@@ -35,39 +39,35 @@ html {
   @media screen and (min-width: 600px) {
     .ncbi-footer .social-icon-label {
       width: auto; } }
-  .ncbi-footer #footer-test-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -128px no-repeat; }
-  .ncbi-footer #footer-test-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -160px no-repeat; }
   .ncbi-footer #footer-support-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 0 no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 0 no-repeat; }
   .ncbi-footer #footer-support-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -32px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -32px no-repeat; }
   .ncbi-footer #footer-twitter-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -128px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -128px no-repeat; }
   .ncbi-footer #footer-twitter-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -160px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -160px no-repeat; }
   .ncbi-footer #footer-facebook-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -192px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -192px no-repeat; }
   .ncbi-footer #footer-facebook-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -224px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -224px no-repeat; }
   .ncbi-footer #footer-linkedin-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -256px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -256px no-repeat; }
   .ncbi-footer #footer-linkedin-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -288px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -288px no-repeat; }
   .ncbi-footer #footer-youtube-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -320px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -320px no-repeat; }
   .ncbi-footer #footer-youtube-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -352px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -352px no-repeat; }
   .ncbi-footer #footer-github-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -384px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -384px no-repeat; }
   .ncbi-footer #footer-github-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -416px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -416px no-repeat; }
   .ncbi-footer #footer-rss-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -448px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -448px no-repeat; }
   .ncbi-footer #footer-rss-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -480px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -480px no-repeat; }
   .ncbi-footer #footer-blog-icon {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -512px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -512px no-repeat; }
   .ncbi-footer #footer-blog-icon:hover {
-    background: url("../img/social-icons/circle/footer-sprite.png") 0 -544px no-repeat; }
+    background: url(../img/footer/footer-sprite.png) 0 -544px no-repeat; }

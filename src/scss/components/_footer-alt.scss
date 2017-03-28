@@ -2,12 +2,11 @@
 
 
 .ncbi-footer {
-	border-top: 1px solid $color-gray-light;
+	border-top: 1px solid $color-gray-lighter;
 	margin-top: $site-margins-mobile;
 	@include media($medium-screen) {
 		margin-top: $site-margins;
 	}
-	p { margin-bottom: 0.5em; }
 	
 	h3 { 
 		color: $color-white;
@@ -15,7 +14,12 @@
 		text-transform: uppercase;
 		font-weight: normal;
 	}
+
+	p { margin-bottom: 0.5em; }
 	
+	a { text-decoration: none; }
+	a:hover { text-decoration: underline; }
+
 	.social-icon {
  		display: block;
  		width: 100%;
@@ -38,30 +42,27 @@
 		}	
 	}
 	
-	#footer-test-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -128px no-repeat; }
-	#footer-test-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -160px no-repeat; }
+	#footer-support-icon { background: url(#{$img-path}/footer/footer-sprite.png) 0 0 no-repeat; }
+	#footer-support-icon:hover { background: url(#{$img-path}/footer/footer-sprite.png) 0 -32px no-repeat; }
 	
-	#footer-support-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 0 no-repeat; }
-	#footer-support-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -32px no-repeat; }
+	#footer-twitter-icon { background: url(#{$img-path}/footer/footer-sprite.png) 0 -128px no-repeat; }
+	#footer-twitter-icon:hover { background: url(#{$img-path}/footer/footer-sprite.png) 0 -160px no-repeat; }
 	
-	#footer-twitter-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -128px no-repeat; }
-	#footer-twitter-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -160px no-repeat; }
+	#footer-facebook-icon { background: url(#{$img-path}/footer/footer-sprite.png) 0 -192px no-repeat; }
+	#footer-facebook-icon:hover { background: url(#{$img-path}/footer/footer-sprite.png) 0 -224px no-repeat; }
 	
-	#footer-facebook-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -192px no-repeat; }
-	#footer-facebook-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -224px no-repeat; }
+	#footer-linkedin-icon { background: url(#{$img-path}/footer/footer-sprite.png) 0 -256px no-repeat; }
+	#footer-linkedin-icon:hover { background: url(#{$img-path}/footer/footer-sprite.png) 0 -288px no-repeat; }
 	
-	#footer-linkedin-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -256px no-repeat; }
-	#footer-linkedin-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -288px no-repeat; }
+	#footer-youtube-icon { background: url(#{$img-path}/footer/footer-sprite.png) 0 -320px no-repeat; }
+	#footer-youtube-icon:hover { background: url(#{$img-path}/footer/footer-sprite.png) 0 -352px no-repeat; }
 	
-	#footer-youtube-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -320px no-repeat; }
-	#footer-youtube-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -352px no-repeat; }
+	#footer-github-icon { background: url(#{$img-path}/footer/footer-sprite.png) 0 -384px no-repeat; }
+	#footer-github-icon:hover { background: url(#{$img-path}/footer/footer-sprite.png) 0 -416px no-repeat; }
 	
-	#footer-github-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -384px no-repeat; }
-	#footer-github-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -416px no-repeat; }
+	#footer-rss-icon { background: url(#{$img-path}/footer/footer-sprite.png) 0 -448px no-repeat; }
+	#footer-rss-icon:hover { background: url(#{$img-path}/footer/footer-sprite.png) 0 -480px no-repeat; }
 	
-	#footer-rss-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -448px no-repeat; }
-	#footer-rss-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -480px no-repeat; }
-	
-	#footer-blog-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -512px no-repeat; }
-	#footer-blog-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -544px no-repeat; }
+	#footer-blog-icon { background: url(#{$img-path}/footer/footer-sprite.png) 0 -512px no-repeat; }
+	#footer-blog-icon:hover { background: url(#{$img-path}/footer/footer-sprite.png) 0 -544px no-repeat; }
 }

@@ -1,0 +1,12 @@
+/* ========== Margins ========== */
+
+.ncbi-std-margins {
+	@include margin($site-margins-mobile 0);
+	@include media($medium-screen) {
+		@include margin($site-margins 0);
+	}
+}
+
+.ncbi-narrow-margins {
+	@include margin($site-margins-mobile 0);
+}

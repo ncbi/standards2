@@ -5,6 +5,26 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+/* ========== Margins ========== */
+.ncbi-std-margins {
+  margin: 1.5rem 0; }
+  @media screen and (min-width: 600px) {
+    .ncbi-std-margins {
+      margin: 3rem 0; } }
+
+.ncbi-narrow-margins {
+  margin: 1.5rem 0; }
+
+/* ========== Padding ========== */
+.ncbi-std-padding {
+  margin: 1.5rem 0; }
+  @media screen and (min-width: 600px) {
+    .ncbi-std-padding {
+      padding: 3rem 0; } }
+
+.ncbi-narrow-padding {
+  padding: 1.5rem 0; }
+
 /* ========== Colors ========== */
 .ncbi-bg-primary {
   background-color: #0071bc; }
