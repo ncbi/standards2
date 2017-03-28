@@ -1,9 +1,12 @@
-/* _footer.scss */
+/* _footer-alt.scss */
 
 
 .ncbi-footer {
 	border-top: 1px solid $color-gray-light;
-	
+	margin-top: $site-margins-mobile;
+	@include media($medium-screen) {
+		margin-top: $site-margins;
+	}
 	p { margin-bottom: 0.5em; }
 	
 	h3 { 
@@ -62,11 +65,3 @@
 	#footer-blog-icon { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -512px no-repeat; }
 	#footer-blog-icon:hover { background: url('#{$img-path}/social-icons/circle/footer-sprite.png') 0 -544px no-repeat; }
 }
-
-
-// is this used?
-.ncbi-footer-link-block-dead {
-	padding: 3em 3em 3em 0;
-}
-
-

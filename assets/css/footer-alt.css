@@ -5,9 +5,13 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-/* _footer.scss */
+/* _footer-alt.scss */
 .ncbi-footer {
-  border-top: 1px solid #aeb0b5; }
+  border-top: 1px solid #aeb0b5;
+  margin-top: 1.5rem; }
+  @media screen and (min-width: 600px) {
+    .ncbi-footer {
+      margin-top: 3rem; } }
   .ncbi-footer p {
     margin-bottom: 0.5em; }
   .ncbi-footer h3 {
@@ -67,6 +71,3 @@ html {
     background: url("../img/social-icons/circle/footer-sprite.png") 0 -512px no-repeat; }
   .ncbi-footer #footer-blog-icon:hover {
     background: url("../img/social-icons/circle/footer-sprite.png") 0 -544px no-repeat; }
-
-.ncbi-footer-link-block-dead {
-  padding: 3em 3em 3em 0; }
