@@ -11,11 +11,11 @@
   ],
   "author": "NCBI",
   "contributors": [
-        "Alissa Irving <irvingad@ncbi.nlm.nih.gov>",
-        "Aynex Mercado <mercado1@ncbi.nlm.nih.gov>",
-        "Greg Schuler <schuler@ncbi.nlm.nih.gov>",
-        "Eddie Welker <welkere@ncbi.nlm.nih.gov>"
-    ],
+    "Alissa Irving <irvingad@ncbi.nlm.nih.gov>",
+    "Aynex Mercado <mercado1@ncbi.nlm.nih.gov>",
+    "Greg Schuler <schuler@ncbi.nlm.nih.gov>",
+    "Eddie Welker <welkere@ncbi.nlm.nih.gov>"
+  ],
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
     "url": "https://github.com/NCBI/standards2/issues"
