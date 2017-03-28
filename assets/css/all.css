@@ -275,6 +275,9 @@ html {
 ul, ol {
   padding-left: 1.25em;
   margin-left: 0; }
+  ul li, ol li {
+    line-height: 1.25;
+    margin: 0.75rem 0; }
 
 blockquote {
   margin-left: 0;
@@ -306,10 +309,16 @@ code, .code {
   text-decoration: underline; }
 
 /* ========= Lists ========== */
-.ncbi-unstyled-list, .ncbi-inline-list, .ncbi-inline-list-alt {
+ul.ncbi-unstyled-list, ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
   list-style-type: none;
   padding-left: 0;
-  margin-left: 0; }
+  margin-left: 0;
+  /*
+  li {
+  	line-height: 1.25;
+  	@include margin(0.75rem 0);
+  }
+  */ }
 
 .ncbi-inline-list li, .ncbi-inline-list-alt li {
   display: block !important;

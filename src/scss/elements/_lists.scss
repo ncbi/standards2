@@ -1,12 +1,18 @@
 /* ========= Lists ========== */
 
-.ncbi-unstyled-list {
+ul.ncbi-unstyled-list {
 	list-style-type: none;
 	padding-left: 0;
 	margin-left: 0;
+	/*
+	li {
+		line-height: 1.25;
+		@include margin(0.75rem 0);
+	}
+	*/
 }
 
-
+// try removing the !importants from this section
 .ncbi-inline-list {
 	@extend .ncbi-unstyled-list;
 	
