@@ -44,3 +44,13 @@ code, .code {
 	a:visited {color: $color-primary; }
 	a:hover { text-decoration: underline; }
 }
+
+.ncbi-block-head {
+	display: inline-block;
+	padding: 0.25em 1rem;
+	font-family: $font-sans; 
+	font-size: $h3-font-size;
+}
+
+
+
