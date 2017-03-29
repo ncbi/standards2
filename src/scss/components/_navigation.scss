@@ -3,10 +3,11 @@
 nav.ncbi-top-nav {
 	height: auto;
 	width: 100%;
-	line-height: 5rem;
+	line-height: 3.3rem;
 	font-size: 1.5rem;
 	font-weight: bold;
 	margin: 0;
+	padding: 0.8rem 0;
 	border-bottom: 1px solid #aeb0b5; 	
 	
 	@include media($medium-screen) {
