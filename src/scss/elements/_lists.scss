@@ -4,12 +4,6 @@ ul.ncbi-unstyled-list {
 	list-style-type: none;
 	padding-left: 0;
 	margin-left: 0;
-	/*
-	li {
-		line-height: 1.25;
-		@include margin(0.75rem 0);
-	}
-	*/
 }
 
 // try removing the !importants from this section
@@ -18,8 +12,8 @@ ul.ncbi-unstyled-list {
 	
 	// on mobile, items are blocks stacked vertically
 	li {
-		display: block !important;
-		margin-left: 0 !important;
+		display: block; // !important;
+		margin-left: 0; // !important;
 	}
 	
 	@include media($medium-screen) {
@@ -27,8 +21,8 @@ ul.ncbi-unstyled-list {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	li {
-		display: inline !important;
-		margin-right: 2.5rem !important;
+		display: inline; // !important;
+		margin-right: 2.5rem; // !important;
 		&:last-child { margin-right: 0; }
 	}
 	}
@@ -44,7 +38,7 @@ ul.ncbi-unstyled-list {
 	@include media($medium-screen) {
 	li {
 		border-bottom: 0;
-		margin-right: 0 !important;
+		margin-right: 0; // !important;
 	}
 	li::after {
 		content: "\a0\a0\a0|\a0\a0\a0";

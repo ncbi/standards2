@@ -277,7 +277,7 @@ ul, ol {
   margin-left: 0; }
   ul li, ol li {
     line-height: 1.25;
-    margin: 0.75rem 0; }
+    margin: 1rem 0; }
 
 blockquote {
   margin-left: 0;
@@ -312,25 +312,19 @@ code, .code {
 ul.ncbi-unstyled-list, ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
   list-style-type: none;
   padding-left: 0;
-  margin-left: 0;
-  /*
-  li {
-  	line-height: 1.25;
-  	@include margin(0.75rem 0);
-  }
-  */ }
+  margin-left: 0; }
 
 .ncbi-inline-list li, .ncbi-inline-list-alt li {
-  display: block !important;
-  margin-left: 0 !important; }
+  display: block;
+  margin-left: 0; }
 @media screen and (min-width: 600px) {
   .ncbi-inline-list, .ncbi-inline-list-alt {
     width: 100%;
     margin-top: 0.5em;
     margin-bottom: 0.5em; }
     .ncbi-inline-list li, .ncbi-inline-list-alt li {
-      display: inline !important;
-      margin-right: 2.5rem !important; }
+      display: inline;
+      margin-right: 2.5rem; }
       .ncbi-inline-list li:last-child, .ncbi-inline-list-alt li:last-child {
         margin-right: 0; } }
 
@@ -339,7 +333,7 @@ ul.ncbi-unstyled-list, ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
 @media screen and (min-width: 600px) {
   .ncbi-inline-list-alt li {
     border-bottom: 0;
-    margin-right: 0 !important; }
+    margin-right: 0; }
   .ncbi-inline-list-alt li::after {
     content: "\a0\a0\a0|\a0\a0\a0";
     color: #aeb0b5; }
