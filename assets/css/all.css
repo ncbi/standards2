@@ -347,10 +347,12 @@ ul.ncbi-unstyled-list, ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
     content: ""; } }
 
 /* ========== Tables ========== */
-table td {
-  border: 1px solid #d6d7d9; }
-table th.num, table td.num {
-  text-align: right; }
+table {
+  border-top: 1px solid #d6d7d9; }
+  table th, table td {
+    border: 1px solid #d6d7d9; }
+  table th.num, table td.num {
+    text-align: right; }
 
 /* ========== Navigation ========== */
 nav.ncbi-top-nav {
