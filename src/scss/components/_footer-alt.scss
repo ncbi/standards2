@@ -3,10 +3,6 @@
 
 .ncbi-footer {
 	border-top: 1px solid $color-gray-lighter;
-	margin-top: $site-margins-mobile;
-	@include media($medium-screen) {
-		margin-top: $site-margins;
-	}
 	
 	h3 { 
 		color: $color-white;

@@ -7,11 +7,7 @@ html {
 
 /* _footer-alt.scss */
 .ncbi-footer {
-  border-top: 1px solid #d6d7d9;
-  margin-top: 1.5rem; }
-  @media screen and (min-width: 600px) {
-    .ncbi-footer {
-      margin-top: 3rem; } }
+  border-top: 1px solid #d6d7d9; }
   .ncbi-footer h3 {
     color: #ffffff;
     font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
