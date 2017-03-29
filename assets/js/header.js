@@ -63,15 +63,3 @@ function getCookie(f) {
     }
     return ''
 }
-
-
-// Inject meta tag ncbi_standards2=yes into head.  Pinger will capture all starting with ncbi_
-<script type="text/javascript">
-    var meta = document.createElement('meta');
-    meta.name = 'ncbi_standards2';
-    meta.content = 'yes';
-    document.getElementsByTagName('head')[0].appendChild(meta);
-</script>
-
-<!-- pinger -->
-<script type="text/javascript" src="https://www.ncbi.nlm.nih.gov/portal/portal3rc.fcgi/rlib/js/InstrumentOmnitureBaseJS/InstrumentNCBIConfigJS/InstrumentNCBIBaseJS/InstrumentPageStarterJS.js"> </script>
