@@ -346,6 +346,12 @@ ul.ncbi-unstyled-list, ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
   .ncbi-inline-list-alt li:last-child::after {
     content: ""; } }
 
+/* ========== Tables ========== */
+table td {
+  border: 1px solid #d6d7d9; }
+table th.num, table td.num {
+  text-align: right; }
+
 /* ========== Navigation ========== */
 nav.ncbi-top-nav {
   height: auto;

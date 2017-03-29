@@ -1,0 +1,10 @@
+/* ========== Tables ========== */
+
+table {
+	td {
+		border: 1px solid $color-gray-lighter;
+	}
+	th.num, td.num {
+		text-align: right;
+	}
+}
