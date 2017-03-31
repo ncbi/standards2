@@ -1,34 +1,33 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Standards Demo Page</title>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://www.ncbi.nlm.nih.gov/coreutils/uswds/css/uswds.css"/>
-<link rel="stylesheet" href="./assets/css/header.css"/>
-<link rel="stylesheet" href="./assets/css/footer.css"/>
-<link rel="stylesheet" href="./assets/css/form.css"/>
+  <link rel="stylesheet" href="/coreutils/uswds/css/uswds.css"/>
+  <link rel="stylesheet" href="/coreutils/assets/css/header.css"/>
+  <link rel="stylesheet" href="/coreutils/assets/css/footer.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"/>
+
+  <title>NCBI standards demo page</title>
+
 </head>
 
 <body>
-<a class="usa-skipnav" href="#main-content">Skip to main content</a>
-<!--#include file="./assets/html/_header.html" -->
-	
-	<main id="main-content" class="usa-grid">
-	<section class="usa-section">
-	<h1>Standards Demo Page</h1>
-	<p>With standard NCBI header and footer (using server-side includes)</p>
-	</section>
-	</main>
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a> 
 
+<!--#include virtual="/coreutils/assets/html/_header.html" -->
 
-<!--#include file="./assets/html/_footer.html" -->
+  <main id="main-content" class="usa-grid">
+    <section class="usa-section">
+      <h1>NCBI standards demo page</h1>
+      <p>A page with the standard NCBI header and footer.</p>
+    </section>
+  </main>
 
+<!--#include virtual="/coreutils/assets/html/_footer.html" --> 
 
-<script src="./assets/js/header.js"></script>
-<script src="https://www.ncbi.nlm.nih.gov/coreutils/uswds/js/uswds.min.js"></script>
-<script src="https://www.ncbi.nlm.nih.gov/coreutils/assets/js/pinger.js"></script>
+  <script src="/coreutils/assets/js/header.js"></script> 
+  <script src="/coreutils/uswds/js/uswds.min.js"></script>
 </body>
 </html>
