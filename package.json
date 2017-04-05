@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/NCBI/standards2#readme",
   "dependencies": {
-    "uswds": "^1.0.0"
+    "uswds": "1.0.0"
   }
 }
