@@ -8,7 +8,7 @@ beginning work on a substantial website redesign. This repository
 contains the UI components developed to support that activity.
 
 The NCBI is a U.S. government agency that collects, analyzes,
-amd distributes scientific data and associated biomedical 
+and distributes scientific data and associated biomedical 
 literature. It is part of the U.S. National Library of 
 Medicine located within the National Institutes of Health (NIH).
 
