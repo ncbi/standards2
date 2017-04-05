@@ -1,5 +1,8 @@
 # NCBI Web Design Standards
 
+[NPM package](https://www.npmjs.com/package/ncbi-web-standards)
+
+
 The National Center for Biotechnology information (NCBI) is 
 beginning work on a substantial website redesign. This repository
 contains the UI components developed to support that activity.
