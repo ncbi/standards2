@@ -1,0 +1,408 @@
+/* ========== nwds.css ========== */
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* ========== Typography ========== */
+ul, ol {
+  padding-left: 1.25em;
+  margin-left: 0; }
+
+blockquote {
+  margin-left: 0;
+  border-left: 5px solid #8ba6ca;
+  padding: 1rem 2rem; }
+
+/* TODO: definition list */
+/* common text variants */
+.ncbi-text-large {
+  font-size: 2rem; }
+
+.ncbi-text-small {
+  font-size: 1.3rem; }
+
+.ncbi-text-light {
+  color: #5b616b; }
+
+.ncbi-text-small-light {
+  font-size: 1.3rem;
+  color: #5b616b; }
+
+/* Small "More" link with right-arrow */
+.ncbi-more-link {
+  font: 700 1.4rem "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  background: #fff url("../img/icons/arrow-right-primary.svg") no-repeat right center/12px 12px;
+  padding-right: 2rem;
+  text-decoration: none; }
+  .ncbi-more-link:hover {
+    text-decoration: underline; }
+  .ncbi-more-link:visited {
+    color: #0071bc; }
+
+/* ========= Lists ========== */
+ul.ncbi-unstyled-list, ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0; }
+
+ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+  ul.ncbi-inline-list li, ul.ncbi-inline-list-alt li {
+    display: inline;
+    margin-right: 2.5rem; }
+    ul.ncbi-inline-list li:last-child, ul.ncbi-inline-list-alt li:last-child {
+      margin-right: 0; }
+
+ul.ncbi-inline-list-alt li {
+  border-bottom: 0;
+  margin-right: 0; }
+ul.ncbi-inline-list-alt li::after {
+  content: "\a0\a0\a0|\a0\a0\a0";
+  color: #aeb0b5; }
+ul.ncbi-inline-list-alt li:last-child::after {
+  content: ""; }
+
+/* ========== Colors ========== */
+/* accessible text colors for all backgrounds */
+.ncbi-bg-primary {
+  background-color: #0071bc; }
+
+.ncbi-bg-primary-darker {
+  background-color: #205493; }
+
+.ncbi-bg-primary-darkest {
+  background-color: #112e51; }
+
+.ncbi-bg-primary-alt {
+  background-color: #02bfe7; }
+
+.ncbi-bg-primary-alt-dark {
+  background-color: #00a6d2; }
+
+.ncbi-bg-primary-alt-darkest {
+  background-color: #046b99; }
+
+.ncbi-bg-primary-alt-light {
+  background-color: #9bdaf1; }
+
+.ncbi-bg-primary-alt-lightest {
+  background-color: #e1f3f8; }
+
+.ncbi-bg-secondary {
+  background-color: #e31c3d; }
+
+.ncbi-bg-secondary-dark {
+  background-color: #cd2026; }
+
+.ncbi-bg-secondary-darkest {
+  background-color: #981b1e; }
+
+.ncbi-bg-secondary-light {
+  background-color: #e59393; }
+
+.ncbi-bg-secondary-lightest {
+  background-color: #f9dede; }
+
+.ncbi-bg-white {
+  background-color: #ffffff; }
+
+.ncbi-bg-base {
+  background-color: #212121; }
+
+.ncbi-bg-black {
+  background-color: #000000; }
+
+.ncbi-bg-gray-dark {
+  background-color: #323a45; }
+
+.ncbi-bg-gray {
+  background-color: #5b616b; }
+
+.ncbi-bg-gray-medium {
+  background-color: #757575; }
+
+.ncbi-bg-gray-light {
+  background-color: #aeb0b5; }
+
+.ncbi-bg-gray-lighter {
+  background-color: #d6d7d9; }
+
+.ncbi-bg-gray-lightest {
+  background-color: #f1f1f1; }
+
+.ncbi-bg-gray-warm-dark {
+  background-color: #494440; }
+
+.ncbi-bg-gray-warm-light {
+  background-color: #e4e2e0; }
+
+.ncbi-bg-gray-cool-light {
+  background-color: #dce4ef; }
+
+.ncbi-bg-gold {
+  background-color: #fdb81e; }
+
+.ncbi-bg-gold-light {
+  background-color: #f9c642; }
+
+.ncbi-bg-gold-lighter {
+  background-color: #fad980; }
+
+.ncbi-bg-gold-lightest {
+  background-color: #fff1d2; }
+
+.ncbi-bg-green {
+  background-color: #2e8540; }
+
+.ncbi-bg-green-light {
+  background-color: #4aa564; }
+
+.ncbi-bg-green-lighter {
+  background-color: #94bfa2; }
+
+.ncbi-bg-green-lightest {
+  background-color: #e7f4e4; }
+
+.ncbi-bg-cool-blue {
+  background-color: #205493; }
+
+.ncbi-bg-cool-blue-light {
+  background-color: #4773aa; }
+
+.ncbi-bg-cool-blue-lighter {
+  background-color: #8ba6ca; }
+
+.ncbi-bg-cool-blue-lightest {
+  background-color: #dce4ef; }
+
+.ncbi-bg-focus {
+  background-color: #3e94cf; }
+
+.ncbi-bg-visited {
+  background-color: #4c2c92; }
+
+.ncbi-bg-nih-blue {
+  background-color: #20558a; }
+
+/* Light backgrounds with dark text */
+.ncbi-bg-gray-light,
+.ncbi-bg-gray-lighter,
+.ncbi-bg-gray-lightest,
+.ncbi-bg-gray-warm-light,
+.ncbi-bg-gray-cool-light,
+.ncbi-bg-cool-blue-lighter,
+.ncbi-bg-cool-blue-lightest,
+.ncbi-bg-primary-alt-dark,
+.ncbi-bg-primary-alt,
+.ncbi-bg-primary-alt-light,
+.ncbi-bg-primary-alt-lightest,
+.ncbi-bg-green-light,
+.ncbi-bg-green-lighter,
+.ncbi-bg-green-lightest,
+.ncbi-bg-gold,
+.ncbi-bg-gold-light,
+.ncbi-bg-gold-lighter,
+.ncbi-bg-gold-lightest,
+.ncbi-bg-secondary-light,
+.ncbi-bg-secondary-lightest {
+  color: #212121; }
+  .ncbi-bg-gray-light a,
+  .ncbi-bg-gray-lighter a,
+  .ncbi-bg-gray-lightest a,
+  .ncbi-bg-gray-warm-light a,
+  .ncbi-bg-gray-cool-light a,
+  .ncbi-bg-cool-blue-lighter a,
+  .ncbi-bg-cool-blue-lightest a,
+  .ncbi-bg-primary-alt-dark a,
+  .ncbi-bg-primary-alt a,
+  .ncbi-bg-primary-alt-light a,
+  .ncbi-bg-primary-alt-lightest a,
+  .ncbi-bg-green-light a,
+  .ncbi-bg-green-lighter a,
+  .ncbi-bg-green-lightest a,
+  .ncbi-bg-gold a,
+  .ncbi-bg-gold-light a,
+  .ncbi-bg-gold-lighter a,
+  .ncbi-bg-gold-lightest a,
+  .ncbi-bg-secondary-light a,
+  .ncbi-bg-secondary-lightest a {
+    color: #0071bc; }
+  .ncbi-bg-gray-light a:hover,
+  .ncbi-bg-gray-lighter a:hover,
+  .ncbi-bg-gray-lightest a:hover,
+  .ncbi-bg-gray-warm-light a:hover,
+  .ncbi-bg-gray-cool-light a:hover,
+  .ncbi-bg-cool-blue-lighter a:hover,
+  .ncbi-bg-cool-blue-lightest a:hover,
+  .ncbi-bg-primary-alt-dark a:hover,
+  .ncbi-bg-primary-alt a:hover,
+  .ncbi-bg-primary-alt-light a:hover,
+  .ncbi-bg-primary-alt-lightest a:hover,
+  .ncbi-bg-green-light a:hover,
+  .ncbi-bg-green-lighter a:hover,
+  .ncbi-bg-green-lightest a:hover,
+  .ncbi-bg-gold a:hover,
+  .ncbi-bg-gold-light a:hover,
+  .ncbi-bg-gold-lighter a:hover,
+  .ncbi-bg-gold-lightest a:hover,
+  .ncbi-bg-secondary-light a:hover,
+  .ncbi-bg-secondary-lightest a:hover {
+    color: #000000; }
+
+/* Dark backgrounds with light text */
+.ncbi-bg-base,
+.ncbi-bg-gray-warm-dark,
+.ncbi-bg-gray-dark,
+.ncbi-bg-gray,
+.ncbi-bg-primary-darkest,
+.ncbi-bg-primary-darker,
+.ncbi-bg-primary,
+.ncbi-bg-cool-blue,
+.ncbi-bg-cool-blue-light,
+.ncbi-bg-primary-alt-darkest,
+.ncbi-bg-green,
+.ncbi-bg-secondary-darkest,
+.ncbi-bg-secondary-dark,
+.ncbi-bg-secondary,
+.ncbi-bg-visited,
+.ncbi-bg-nih-blue,
+.ncbi-bg-ncbi-blue {
+  color: #ffffff; }
+  .ncbi-bg-base a,
+  .ncbi-bg-gray-warm-dark a,
+  .ncbi-bg-gray-dark a,
+  .ncbi-bg-gray a,
+  .ncbi-bg-primary-darkest a,
+  .ncbi-bg-primary-darker a,
+  .ncbi-bg-primary a,
+  .ncbi-bg-cool-blue a,
+  .ncbi-bg-cool-blue-light a,
+  .ncbi-bg-primary-alt-darkest a,
+  .ncbi-bg-green a,
+  .ncbi-bg-secondary-darkest a,
+  .ncbi-bg-secondary-dark a,
+  .ncbi-bg-secondary a,
+  .ncbi-bg-visited a,
+  .ncbi-bg-nih-blue a,
+  .ncbi-bg-ncbi-blue a {
+    color: #dce4ef; }
+  .ncbi-bg-base a:hover,
+  .ncbi-bg-gray-warm-dark a:hover,
+  .ncbi-bg-gray-dark a:hover,
+  .ncbi-bg-gray a:hover,
+  .ncbi-bg-primary-darkest a:hover,
+  .ncbi-bg-primary-darker a:hover,
+  .ncbi-bg-primary a:hover,
+  .ncbi-bg-cool-blue a:hover,
+  .ncbi-bg-cool-blue-light a:hover,
+  .ncbi-bg-primary-alt-darkest a:hover,
+  .ncbi-bg-green a:hover,
+  .ncbi-bg-secondary-darkest a:hover,
+  .ncbi-bg-secondary-dark a:hover,
+  .ncbi-bg-secondary a:hover,
+  .ncbi-bg-visited a:hover,
+  .ncbi-bg-nih-blue a:hover,
+  .ncbi-bg-ncbi-blue a:hover {
+    color: #ffffff; }
+
+/* ========== Portlets ========== */
+.ncbi-portlet {
+  border-top: 6px solid #8ba6ca;
+  padding-top: 1.5rem;
+  margin-bottom: 3rem; }
+  @media screen and (min-width: 600px) {
+    .ncbi-portlet {
+      padding-top: 3rem;
+      margin-bottom: 3rem; } }
+  .ncbi-portlet h1, .ncbi-portlet h2, .ncbi-portlet h3, .ncbi-portlet h4, .ncbi-portlet h5 {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    margin: 0.5em 0; }
+  .ncbi-portlet h2 {
+    font-size: 2.3rem; }
+  .ncbi-portlet h6, .ncbi-portlet p {
+    margin: 0.5em 0; }
+  .ncbi-portlet ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0.5em 0; }
+  .ncbi-portlet ul li {
+    line-height: 1.2;
+    margin: 0;
+    padding: 0.5em 0; }
+  .ncbi-portlet a {
+    color: #0071bc;
+    text-decoration: none; }
+  .ncbi-portlet a:hover {
+    text-decoration: underline;
+    color: #112e51; }
+  .ncbi-portlet a:visited {
+    color: #0071bc; }
+
+/* ========== Document Summaries (docsums) ========== */
+.ncbi-doc-context {
+  margin-bottom: 0.75em;
+  text-transform: uppercase;
+  color: #5b616b; }
+
+.ncbi-doc-title {
+  font: 400 2rem "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  line-height: 1.2;
+  padding: 0; }
+
+.ncbi-doc-authors {
+  line-height: 1.2;
+  color: #2e8540; }
+
+.ncbi-doc-excerpt {
+  line-height: 1.2;
+  padding: 0; }
+
+.ncbi-doc-source {
+  font-size: 1.4rem; }
+
+.ncbi-favicon {
+  max-height: 16px;
+  max-width: 16px;
+  vertical-align: middle;
+  padding-right: 0.25em; }
+
+.ncbi-doc-id {
+  font-size: 1.4rem;
+  color: #5b616b; }
+
+.ncbi-doc-links {
+  font-size: 1.4rem; }
+
+.ncbi-docsum {
+  margin: 3rem 0;
+  max-width: 600px;
+  line-height: 1.2; }
+  .ncbi-docsum a {
+    text-decoration: none; }
+  .ncbi-docsum a:hover {
+    text-decoration: underline; }
+  .ncbi-docsum .ncbi-doc-title,
+  .ncbi-docsum .ncbi-doc-authors,
+  .ncbi-docsum .ncbi-doc-excerpt,
+  .ncbi-docsum .ncbi-doc-source,
+  .ncbi-docsum .ncbi-doc-id,
+  .ncbi-docsum .ncbi-doc-links {
+    margin: 0.2em 0; }
+
+.ncbi-docsum-small {
+  margin: 0.5em 0;
+  max-width: 53rem; }
+  .ncbi-docsum-small li {
+    margin: 0.5em 0; }
+  .ncbi-docsum-small p, .ncbi-docsum-small .ncbi-doc-title {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin: 0; }
+  .ncbi-docsum-small .ncbi-doc-source, .ncbi-docsum-small .ncbi-doc-id {
+    font-size: 1.4rem;
+    color: #5b616b;
+    margin: 0; }

@@ -1,0 +1,45 @@
+/* ========== Typography ========== */
+
+// keep lists aligned to the grid
+ul, ol {
+	padding-left: 1.25em;
+	margin-left: 0;
+}
+
+blockquote {
+	margin-left: 0;
+	border-left: 5px solid $color-cool-blue-lighter;
+	padding: 1rem 2rem;
+}
+
+/* TODO: definition list */
+
+/* common text variants */
+
+.ncbi-text-large { 
+	font-size: $lead-font-size; 
+}
+
+.ncbi-text-small { 
+	font-size: $h6-font-size; 
+}
+
+.ncbi-text-light { 
+	color: $color-gray; 
+}
+
+.ncbi-text-small-light { 
+	font-size: $h6-font-size; 
+	color: $color-gray; 
+}
+
+/* Small "More" link with right-arrow */ 
+
+.ncbi-more-link {
+	font: $font-bold $small-font-size $helvetica;
+    background: #fff url('../img/icons/arrow-right-primary.svg') no-repeat right center / 12px 12px;	
+	padding-right: 2rem;
+	text-decoration: none;
+	&:hover { text-decoration: underline; }
+	&:visited { color: $color-primary; }
+}
