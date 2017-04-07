@@ -33,7 +33,7 @@ blockquote {
 /* Small "More" link with right-arrow */
 .ncbi-more-link {
   font: 700 1.4rem "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  background: #fff url("../img/icons/arrow-right-primary.svg") no-repeat right center/12px 12px;
+  background: url("../img/icons/arrow-right-primary.svg") no-repeat right center/12px 12px;
   padding-right: 2rem;
   text-decoration: none; }
   .ncbi-more-link:hover {
@@ -320,10 +320,12 @@ ul.ncbi-inline-list-alt li:last-child::after {
       margin-bottom: 3rem; } }
   .ncbi-portlet h1, .ncbi-portlet h2, .ncbi-portlet h3, .ncbi-portlet h4, .ncbi-portlet h5 {
     font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-    margin: 0.5em 0; }
+    margin: 1em 0.5em 0.5em 0; }
   .ncbi-portlet h2 {
-    font-size: 2.3rem; }
+    font-size: 2.4rem; }
   .ncbi-portlet h6, .ncbi-portlet p {
+    margin: 1em 0; }
+  .ncbi-portlet p {
     margin: 0.5em 0; }
   .ncbi-portlet ul {
     list-style-type: none;
