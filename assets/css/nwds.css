@@ -322,7 +322,8 @@ ul.ncbi-inline-list-alt li:last-child::after {
     font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     margin: 1em 0.5em 0.5em 0; }
   .ncbi-portlet h2 {
-    font-size: 2.4rem; }
+    font-size: 2.4rem;
+    margin-top: 0.5em; }
   .ncbi-portlet h6, .ncbi-portlet p {
     margin: 1em 0; }
   .ncbi-portlet p {
