@@ -1,6 +1,12 @@
 
 /* ========== Links ========== */
 
+.ncbi-undecorated-link {
+	a { color: $color-primary; text-decoration: none; }
+	a:visited {color: $color-primary; }
+	a:hover { text-decoration: underline; }
+}
+
 /* Small "More" link with right-arrow */ 
 
 .ncbi-more-link {

@@ -61,6 +61,26 @@ dl {
   font-size: 1.3rem;
   color: #5b616b; }
 
+/* ========== Links ========== */
+.ncbi-undecorated-link a {
+  color: #0071bc;
+  text-decoration: none; }
+.ncbi-undecorated-link a:visited {
+  color: #0071bc; }
+.ncbi-undecorated-link a:hover {
+  text-decoration: underline; }
+
+/* Small "More" link with right-arrow */
+.ncbi-more-link {
+  font: 700 1.4rem "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  background: url("../img/icons/arrow-right-primary.svg") no-repeat right center/12px 12px;
+  padding-right: 2rem;
+  text-decoration: none; }
+  .ncbi-more-link:hover {
+    text-decoration: underline; }
+  .ncbi-more-link:visited {
+    color: #0071bc; }
+
 /* ========= Lists ========== */
 ul.ncbi-unstyled-list, ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
   list-style-type: none;
