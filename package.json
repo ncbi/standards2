@@ -24,4 +24,8 @@
   "dependencies": {
     "uswds": "1.0.0"
   }
+  "devDependencies": {
+    "npm-sass": "2.0",
+    "csslint": "1.0"
+  }
 }
