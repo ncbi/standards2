@@ -14,4 +14,4 @@ echo "git push --tags"
 
 # cleanup
 
-echo "rm -r build/"s
+echo "rm -r build/"
