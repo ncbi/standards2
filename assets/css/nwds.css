@@ -60,9 +60,11 @@ ul.ncbi-inline-list, ul.ncbi-inline-list-alt {
 ul.ncbi-inline-list-alt li {
   border-bottom: 0;
   margin-right: 0; }
+
 ul.ncbi-inline-list-alt li::after {
   content: "\a0\a0\a0|\a0\a0\a0";
   color: #aeb0b5; }
+
 ul.ncbi-inline-list-alt li:last-child::after {
   content: ""; }
 
@@ -209,8 +211,7 @@ ul.ncbi-inline-list-alt li:last-child::after {
 .ncbi-bg-gold-lightest,
 .ncbi-bg-secondary-light,
 .ncbi-bg-secondary-lightest {
-  color: #212121; 
-  padding:5px;}
+  color: #212121; }
   .ncbi-bg-gray-light a,
   .ncbi-bg-gray-lighter a,
   .ncbi-bg-gray-lightest a,
@@ -231,7 +232,7 @@ ul.ncbi-inline-list-alt li:last-child::after {
   .ncbi-bg-gold-lightest a,
   .ncbi-bg-secondary-light a,
   .ncbi-bg-secondary-lightest a {
-    color: #0071bc;}
+    color: #0071bc; }
   .ncbi-bg-gray-light a:hover,
   .ncbi-bg-gray-lighter a:hover,
   .ncbi-bg-gray-lightest a:hover,
@@ -272,8 +273,7 @@ ul.ncbi-inline-list-alt li:last-child::after {
 .ncbi-bg-visited,
 .ncbi-bg-nih-blue,
 .ncbi-bg-ncbi-blue {
-  color: #ffffff; 
-  padding:5px;}
+  color: #ffffff; }
   .ncbi-bg-base a,
   .ncbi-bg-gray-warm-dark a,
   .ncbi-bg-gray-dark a,
