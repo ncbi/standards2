@@ -22,8 +22,9 @@ fi
 
 # TODO: run csslint on nwds.css
 
-
-cat assets/html/_footer.html | sed "s/"$npm_package_version"/_NWDS_VERSION_" > build/Release/_footer.html.tmp
+SEDEXPR="s/"$npm_package_version"/_NWDS_VERSION_/"
+echo $SEDEXPR
+cat assets/html/_footer.html | sed $SEDEXPR > build/Release/_footer.html.tmp
 
 
 
