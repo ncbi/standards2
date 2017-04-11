@@ -2,7 +2,7 @@
 
 
 echo "========== scripts/postversion.sh"
-echo "standards2 "$npm_package_version
+echo "version "$npm_package_version
 echo ""
 
 
@@ -14,4 +14,4 @@ echo "git push --tags"
 
 # cleanup
 
-rm -r build/
+echo "rm -r build/"s

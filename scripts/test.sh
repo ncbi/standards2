@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "========== scripts/test.sh"
-echo "standards2 "$npm_package_version
+echo "version "$npm_package_version
 echo ""
 
 if [ -e build/Release ]; then
@@ -25,7 +25,8 @@ fi
 
 
 # Make a temporary copy of _footer.html with placeholder for version number
-# This is not really a test, but 
+# This is not really a test, but if run in the preversion.sh, the version
+# number will have already been incremented. 
 
 SEDEXPR="s/"$npm_package_version"/_NWDS_VERSION_/"
 echo $SEDEXPR

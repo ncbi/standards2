@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "========== scripts/preversion.sh"
-echo "standards2 "$npm_package_version
+echo "version "$npm_package_version
 echo ""
 
 
@@ -16,8 +16,7 @@ if [ "$DIF" = "" ]; then
     exit 1
 fi
 
+cp build/Release/_footer.html
 
-echo "faking an error"
-exit 1
-
+exit 0
 
