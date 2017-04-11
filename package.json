@@ -32,6 +32,6 @@
     "test": "scripts/test.sh",
     "preversion": "npm test && scripts/preversion.sh",
     "version": "scripts/version.sh",
-    "postverson": "scripts/postversion.sh"
+    "postversion": "scripts/postversion.sh"
   }
 }

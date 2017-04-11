@@ -16,7 +16,5 @@ if [ "$DIF" = "" ]; then
     exit 1
 fi
 
-cp build/Release/_footer.html
-
 exit 0
 
