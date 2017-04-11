@@ -23,9 +23,15 @@
   "homepage": "https://github.com/NCBI/standards2#readme",
   "dependencies": {
     "uswds": "1.0.0"
-  }
+  },
   "devDependencies": {
     "npm-sass": "2.0",
     "csslint": "1.0"
+  },
+  "scripts": {
+    "test": "scripts/test.sh",
+    "preversion": "npm test && scripts/preversion.sh",
+    "version": "scripts/version.sh",
+    "postverson": "scripts/postversion.sh"
   }
 }
