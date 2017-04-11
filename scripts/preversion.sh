@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "preversion"
-echo "node_package_version="$node_package_version
+echo "npm_package_version="$npm_package_version
 
 printenv
 

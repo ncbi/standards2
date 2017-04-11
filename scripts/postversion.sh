@@ -2,4 +2,4 @@
 
 
 echo "postversion"
-echo $node_package_version
+echo "npm_package_version="$npm_package_version
