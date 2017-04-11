@@ -3,7 +3,7 @@
 echo "test"
 echo $node_package_version
 
-if [ -e build ] then;
+if [ -e build ]; then
     echo "build already exists"
 else
     mkdir build
