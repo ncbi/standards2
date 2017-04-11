@@ -29,7 +29,7 @@ fi
 SEDEXPR="s/"$npm_package_version"/_NWDS_VERSION_/"
 echo $SEDEXPR
 cat assets/html/_footer.html | sed $SEDEXPR > build/Release/_footer.html.tmp
-DIF = `diff -q assets/html/_footer.html build/Release/_footer.html.tmp`
+DIF=`diff -q assets/html/_footer.html build/Release/_footer.html.tmp`
 if [ "$DIF" = "" ]; then 
     exit 0
 fi
