@@ -1,9 +1,14 @@
 #!/bin/bash
 
-echo "preversion"
-echo "npm_package_version="$npm_package_version
+echo "========== scripts/preversion.sh"
+echo "standards2 "$npm_package_version
+echo ""
 
-printenv
+#printenv
+
+# TODO: inject ncbi_nwds_ver into footer var  
 
 echo "faking an error"
 exit 1
+
+

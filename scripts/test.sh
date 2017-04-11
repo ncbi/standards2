@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "test"
-echo "npm_package_version="$npm_package_version
+echo "========== scripts/test.sh"
+echo "standards2 "$npm_package_version
+echo ""
 
 if [ -e build/Release ]; then
     echo "build/Release already exists"
@@ -18,5 +19,8 @@ if [ $? -ne 0 ]; then
     echo "ERROR: Sass step failed"
     exit 1
 fi
+
+# TODO: run csslint on nwds.css
+
 
 
