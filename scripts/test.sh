@@ -22,9 +22,20 @@ fi
 
 # TODO: run csslint on nwds.css
 
+
+
+# Make a temporary copy of _footer.html with placeholder for version number 
+
 SEDEXPR="s/"$npm_package_version"/_NWDS_VERSION_/"
 echo $SEDEXPR
 cat assets/html/_footer.html | sed $SEDEXPR > build/Release/_footer.html.tmp
+DIF = `diff -q assets/html/_footer.html build/Release/_footer.html.tmp`
+if [ "$DIF" = "" ]; then 
+    exit 0
+fi
+echo "ERROR: sed step failed"
+exit 1
+
 
 
 

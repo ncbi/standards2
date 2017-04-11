@@ -1,6 +1,6 @@
 {
   "name": "ncbi-web-standards",
-  "version": "0.1.0",
+  "version": "0.1.x",
   "description": "NCBI Web Design Standards",
   "repository": {
     "type": "git",
