@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo "========== scripts/preversion.sh"
-echo "version "$npm_package_version
-echo ""
-
 
 # Inject the new version number into _footer.html  
 

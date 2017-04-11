@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo "========== scripts/test.sh"
-echo "version "$npm_package_version
-echo ""
+# Create build directory
 
 if [ -e build/Release ]; then
     echo "build/Release already exists"
