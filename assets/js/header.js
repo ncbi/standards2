@@ -63,3 +63,9 @@ function getCookie(f) {
     }
     return ''
 }
+
+
+var meta_nwds_ver = document.createElement('meta');
+meta_nwds_ver.name = 'ncbi_nwds_ver';
+meta_nwds_ver.content = nwds_version;  
+document.getElementsByTagName('head')[0].appendChild(meta_nwds_ver);

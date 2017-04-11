@@ -24,7 +24,8 @@ fi
 
 
 
-# Make a temporary copy of _footer.html with placeholder for version number 
+# Make a temporary copy of _footer.html with placeholder for version number
+# This is not really a test, but 
 
 SEDEXPR="s/"$npm_package_version"/_NWDS_VERSION_/"
 echo $SEDEXPR
