@@ -15,7 +15,38 @@ blockquote {
   border-left: 5px solid #8ba6ca;
   padding: 1rem 2rem; }
 
-/* TODO: definition list */
+/* responsive definition list */
+dl {
+  margin: 0.5em 0;
+  width: 100%;
+  border-bottom: 1px solid #d6d7d9; }
+  dl dt {
+    padding-top: 0.5em;
+    font-weight: bold;
+    color: #5b616b;
+    border-top: 1px solid #d6d7d9; }
+    @media screen and (min-width: 600px) {
+      dl dt {
+        float: left;
+        width: 33.333333%;
+        max-width: 24rem;
+        padding-bottom: 0.5em;
+        clear: left; } }
+  dl dd {
+    margin: 0;
+    padding-bottom: 0.5em; }
+    @media screen and (min-width: 600px) {
+      dl dd {
+        float: left;
+        width: 66.66667%;
+        min-width: calc(100% - 24rem);
+        border-top: 1px solid #d6d7d9;
+        padding-top: 0.5em; } }
+  dl:after {
+    clear: both;
+    display: table;
+    content: ""; }
+
 /* common text variants */
 .ncbi-text-large {
   font-size: 2rem; }
@@ -30,10 +61,19 @@ blockquote {
   font-size: 1.3rem;
   color: #5b616b; }
 
+/* ========== Links ========== */
+.ncbi-undecorated-link a {
+  color: #0071bc;
+  text-decoration: none; }
+.ncbi-undecorated-link a:visited {
+  color: #0071bc; }
+.ncbi-undecorated-link a:hover {
+  text-decoration: underline; }
+
 /* Small "More" link with right-arrow */
 .ncbi-more-link {
   font: 700 1.4rem "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  background: #fff url("../img/icons/arrow-right-primary.svg") no-repeat right center/12px 12px;
+  background: url("../img/icons/arrow-right-primary.svg") no-repeat right center/12px 12px;
   padding-right: 2rem;
   text-decoration: none; }
   .ncbi-more-link:hover {
@@ -322,10 +362,13 @@ ul.ncbi-inline-list-alt li:last-child::after {
       margin-bottom: 3rem; } }
   .ncbi-portlet h1, .ncbi-portlet h2, .ncbi-portlet h3, .ncbi-portlet h4, .ncbi-portlet h5 {
     font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-    margin: 0.5em 0; }
+    margin: 1em 0.5em 0.5em 0; }
   .ncbi-portlet h2 {
-    font-size: 2.3rem; }
+    font-size: 2.4rem;
+    margin-top: 0.5em; }
   .ncbi-portlet h6, .ncbi-portlet p {
+    margin: 1em 0; }
+  .ncbi-portlet p {
     margin: 0.5em 0; }
   .ncbi-portlet ul {
     list-style-type: none;

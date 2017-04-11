@@ -1,0 +1,20 @@
+
+/* ========== Links ========== */
+
+.ncbi-undecorated-link {
+	a { color: $color-primary; text-decoration: none; }
+	a:visited {color: $color-primary; }
+	a:hover { text-decoration: underline; }
+}
+
+/* Small "More" link with right-arrow */ 
+
+.ncbi-more-link {
+	font: $font-bold $small-font-size $helvetica;
+    background: url('../img/icons/arrow-right-primary.svg') no-repeat right center / 12px 12px;	
+	padding-right: 2rem;
+	text-decoration: none;
+	&:hover { text-decoration: underline; }
+	&:visited { color: $color-primary; }
+}
+
