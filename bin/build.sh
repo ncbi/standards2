@@ -2,7 +2,7 @@
 
 # Create build directory
 
-if [ -e tmp ]; then
+if [ -d tmp ]; then
     echo "tmp/ already exists"
 else
     mkdir tmp
@@ -20,15 +20,3 @@ if [ $? -ne 0 ]; then
 fi
 
 printf "##teamcity[compliationFinished compiler='npm-sass']\n";
-
-printf "##teamcity[message text='Running tests' status='NORMAL']\n";
-
-
-printf "##teamcity[message text='Running tests' status='NORMAL']\n";
-
-#
-# TODO: run csslint on tmp/nwds.css  ...  and/or other appropriate tests
-#
-
-
-exit 0

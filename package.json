@@ -29,9 +29,10 @@
     "csslint": "1.0"
   },
   "scripts": {
-    "test": "scripts/test.sh",
+    "build-css": "./bin/build.sh",
+    "test": "./bin/test.sh",
     "preversion": "npm test",
-    "version": "scripts/version.sh",
-    "postversion": "scripts/postversion.sh"
+    "version": "./bin/version.sh",
+    "postversion": "./bin/postversion.sh"
   }
 }
