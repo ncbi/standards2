@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # cleanup
-rm -r build
+rm -r tmp
 
 
 # push

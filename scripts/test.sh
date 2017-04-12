@@ -2,38 +2,30 @@
 
 # Create build directory
 
-if [ -e build/Release ]; then
+if [ -e tmp ]; then
     echo "build/Release already exists"
 else
-    mkdir build
-    mkdir build/Release
+    mkdir tmp
 fi
 
 
-# Compile SCSS sources to nwds.css, keep in build/Release until later
 
-node_modules/.bin/npm-sass src/scss/nwds.scss > build/Release/nwds.css
+# Compile SCSS sources to nwds.css, keep in tmp until later
+
+node_modules/.bin/npm-sass src/scss/nwds.scss > tmp/nwds.css
 if [ $? -ne 0 ]; then
     echo "ERROR: Sass step failed"
     exit 1
 fi
 
-# TODO: run csslint on nwds.css
+
+
+#
+# TODO: run csslint on tmp/nwds.css  ...  and/or other appropriate tests
+#
 
 
 
-# Make a temporary copy of _footer.html with placeholder for version number
-# This is not really a test, but if run in the preversion.sh, the version
-# number will have already been incremented. 
-
-SEDEXPR="s/"$npm_package_version"/_NWDS_VERSION_/"
-echo $SEDEXPR
-cat assets/html/_footer.html | sed $SEDEXPR > build/Release/_footer.html.tmp
-DIF=`diff -q assets/html/_footer.html build/Release/_footer.html.tmp`
-if [ "$DIF" = "" ]; then 
-    echo "ERROR: sed step failed"
-    exit 1
-fi
 
 exit 0
 
