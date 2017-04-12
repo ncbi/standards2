@@ -3,7 +3,7 @@
 # Create build directory
 
 if [ -e tmp ]; then
-    echo "build/Release already exists"
+    echo "tmp/ already exists"
 else
     mkdir tmp
 fi
@@ -17,6 +17,7 @@ if [ $? -ne 0 ]; then
     echo "ERROR: Sass step failed"
     exit 1
 fi
+
 
 
 

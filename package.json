@@ -30,7 +30,7 @@
   },
   "scripts": {
     "test": "scripts/test.sh",
-    "preversion": "npm test && scripts/preversion.sh",
+    "preversion": "npm test",
     "version": "scripts/version.sh",
     "postversion": "scripts/postversion.sh"
   }
