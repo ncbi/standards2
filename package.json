@@ -1,6 +1,6 @@
 {
   "name": "ncbi-web-standards",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "NCBI Web Design Standards",
   "repository": {
     "type": "git",
@@ -23,5 +23,15 @@
   "homepage": "https://github.com/NCBI/standards2#readme",
   "dependencies": {
     "uswds": "1.0.0"
+  },
+  "devDependencies": {
+    "npm-sass": "2.0",
+    "csslint": "1.0"
+  },
+  "scripts": {
+    "test": "scripts/test.sh",
+    "preversion": "npm test",
+    "version": "scripts/version.sh",
+    "postversion": "scripts/postversion.sh"
   }
 }
